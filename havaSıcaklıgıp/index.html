@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>sıcaklık degeri çevirici</h1>
+        <div class="temperatureContainer">
+            <label>celsius:</label>
+            <input onchange="calculateTemp(event)" type="number" id="celsius" name="celsius" placeholder="derece giriniz?">
+
+        </div>
+        <div class="temperatureContainer">
+            <label>fahrenheit:</label>
+            <input  onchange="calculateTemp(event)" type="number" id="fahrenheit" name="fahrenheit" placeholder="derece giriniz?">
+
+        </div>
+        <div class="temperatureContainer">
+            <label>kelvin:</label>
+            <input  onchange="calculateTemp(event)" type="number" id="kelvin" name="kelvin" placeholder="derece giriniz?">
+
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
